@@ -7,5 +7,7 @@ C:\ProgramData\chocolatey\bin\RefreshEnv.cmd
 
 mklink /D C:\bin C:\ProgramData\chocolatey\bin
 
+mklink /D C:\etc C:\Windows\System32\drivers\etc
+
 choco install -y clink busybox git ntop winfetch nmap nerd-fonts-Inconsolata
 ```
