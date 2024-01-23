@@ -21,7 +21,6 @@ cd mwsl
 copy *.bat C:\bin
 copy *.vbs C:\bin
 cd ..
-#rmdir /S /Q mwsl
 
 ```
 
