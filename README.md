@@ -1,4 +1,4 @@
-# Make Windows Less Shitty
+# Make Windows Suck Less
 
 ## elevated
 ```
@@ -14,12 +14,12 @@ choco install -y clink busybox git ntop winfetch nmap nerd-fonts-Inconsolata
 
 mklink C:\bin\bash.exe "C:\Program Files\Git\bin\bash.exe"
 
-git clone https://github.com/albanqafa/mwls.git
-cd mwls
+git clone https://github.com/albanqafa/mwsl.git
+cd mwsl
 copy *.bat C:\bin
 copy *.vbs C:\bin
 cd ..
-#rmdir /S /Q mwls
+#rmdir /S /Q mwsl
 
 ```
 
