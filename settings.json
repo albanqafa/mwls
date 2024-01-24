@@ -6,18 +6,18 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "right"
-            },
-            "keys": "ctrl+shift+e"
-        },
-        {
-            "command": 
-            {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "ctrl+shift+e"
         },
         {
             "command": 
@@ -45,6 +45,14 @@
             "keys": "alt+shift+d"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "ctrl+shift+o"
+        },
+        {
             "command": "unbound",
             "keys": "alt+shift+plus"
         },
@@ -63,14 +71,6 @@
         {
             "command": "unbound",
             "keys": "alt+shift+down"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "down"
-            },
-            "keys": "ctrl+shift+o"
         },
         {
             "command": 
@@ -115,7 +115,7 @@
             },
             {
                 "antialiasingMode": "grayscale",
-                "commandline": "busybox sh",
+                "commandline": "\"C:\\ProgramData\\chocolatey\\bin\\busybox.exe\" sh",
                 "font": 
                 {
                     "face": "Inconsolata Nerd Font Mono"
